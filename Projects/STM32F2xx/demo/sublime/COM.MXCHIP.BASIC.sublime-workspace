@@ -1,0 +1,1309 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"kNo",
+				"kNotInitializedErr	macro"
+			],
+			[
+				"kUn",
+				"kUnknownErr	macro"
+			],
+			[
+				"MiCOU",
+				"MicoUartSend(mico_uart_t uart, const void *data, uint32_t size)	OSStatus"
+			],
+			[
+				"re",
+				"require_noerr_string(ERR, LABEL, STR)	macro"
+			],
+			[
+				"mico_rtos_del",
+				"mico_rtos_delete_thread(mico_thread_t *thread)	OSStatus"
+			],
+			[
+				"require_",
+				"require_noerr_string(ERR, LABEL, STR)	macro"
+			],
+			[
+				"check",
+				"check_string(X, STR)	macro"
+			],
+			[
+				"SMARTBRIDGE_SOCKET_",
+				"SMARTBRIDGE_SOCKET_DISCONNECTED	wiced_bt_smartbridge_socket_status_t"
+			],
+			[
+				"uint",
+				"uint8_t	typedef"
+			],
+			[
+				"mico_rtos_de",
+				"mico_rtos_delay_milliseconds	macro"
+			],
+			[
+				"GATT_UUID_CHARA",
+				"GATT_UUID_CHAR_DECLARE	macro"
+			],
+			[
+				"mem",
+				"memcmp(const void *, const void *, size_t)	int"
+			],
+			[
+				"hello_co",
+				"hello_color_characteritics	wiced_bt_smart_attribute_t*"
+			],
+			[
+				"wiced_bt_smartbridge_get_a",
+				"wiced_bt_smartbridge_get_attribute_cache_by_handle(wiced_bt_smartbridge_socket_t *socket, uint16_t handle, wiced_bt_smart_attribute_t *attribute, uint16_t size)	OSStatus"
+			],
+			[
+				"wiced_bt_smartbridge_disconn",
+				"wiced_bt_smartbridge_disconnect(wiced_bt_smartbridge_socket_t *socket)	OSStatus"
+			],
+			[
+				"mico_bt_dev_ad",
+				"mico_bt_device_address_t	typedef"
+			],
+			[
+				"exte",
+				"extensions"
+			],
+			[
+				"la",
+				"last_scan_response_received	wiced_bt_smart_advertising_report_t"
+			],
+			[
+				"adver",
+				"advertises"
+			],
+			[
+				"er",
+				"eir_data_length	uint8_t"
+			],
+			[
+				"MICO_BT_GA",
+				"MICO_BT_GATT_SUCCESS	enum mico_bt_gatt_status_e"
+			],
+			[
+				"HDLS",
+				"HDLS_GENERIC_ATTRIBUTE	hello_sensor_db_tags"
+			],
+			[
+				"HDLC_WIFI_MANAGER_CMD_RE",
+				"HDLC_WIFI_MANAGER_CMD_RESPOND_DESCRIPTION	enum <anonymous>"
+			],
+			[
+				"us",
+				"user_descripter_spp_data_in	char *"
+			],
+			[
+				"HANDLE_HSENS_SPP_SERVICE_CHAR_IN_",
+				"HANDLE_HSENS_SPP_SERVICE_CHAR_IN_DESCRIPTION	hello_sensor_db_tags"
+			],
+			[
+				"HANDLE_HSENS_SPP_SERVICE_CHAR_IN",
+				"HANDLE_HSENS_SPP_SERVICE_CHAR_IN_VAL	hello_sensor_db_tags"
+			],
+			[
+				"HANDLE_HSENS_SPP_SERVICE_",
+				"HANDLE_HSENS_SPP_SERVICE_CHAR_IN	hello_sensor_db_tags"
+			],
+			[
+				"BT_SMART_S_NO",
+				"BT_SMART_S_NOTIFICATION	macro"
+			],
+			[
+				"hello_sensor_cha",
+				"hello_sensor_char_disable_value	char[]"
+			],
+			[
+				"bt_smart_cache_fin",
+				"bt_smart_cache_find_descriptor_by_handle(cached_smart_characteristic_t *characteristic, uint16_t descriptor_handle, cached_smart_descriptor_t **descriptor_found)	OSStatus"
+			],
+			[
+				"MICO",
+				"MICO_FALSE	macro"
+			],
+			[
+				"requie",
+				"require_noerr(ERR, LABEL)	macro"
+			],
+			[
+				"kAl",
+				"kAlreadyInitializedErr	macro"
+			],
+			[
+				"require",
+				"require_action_quiet(X, LABEL, ACTION)	macro"
+			],
+			[
+				"kA",
+				"kAlreadyInitializedErr	macro"
+			],
+			[
+				"sma",
+				"smart_connection_t	typedef"
+			],
+			[
+				"mico_bt_ga",
+				"mico_bt_gatt_status_e	enum"
+			],
+			[
+				"MICO_",
+				"MICO_TRUE	macro"
+			],
+			[
+				"U",
+				"UINT32	typedef"
+			],
+			[
+				"ch",
+				"characteristic_value_handle	uint16_t"
+			],
+			[
+				"BTM_BLE_ADVERT_BIT_SERVICE",
+				"BTM_BLE_ADVERT_BIT_SERVICE_128	enum mico_bt_ble_advert_mask_e"
+			],
+			[
+				"p",
+				"p_service_data	mico_bt_ble_service_data_t *"
+			],
+			[
+				"BT_SMART_S_N",
+				"BT_SMART_S_NOTIFICATION	macro"
+			],
+			[
+				"BT_SMART_",
+				"BT_SMART_S_NONE	macro"
+			],
+			[
+				"requ",
+				"require_action(X, LABEL, ACTION)	macro"
+			],
+			[
+				"BT_SMART_S_",
+				"BT_SMART_S_NOTIFICATION	macro"
+			],
+			[
+				"mico_rtos_ini",
+				"mico_rtos_init_semaphore(mico_semaphore_t *semaphore, int count)	OSStatus"
+			],
+			[
+				"mico_rtos_th",
+				"mico_rtos_delete_thread(mico_thread_t *thread)	OSStatus"
+			],
+			[
+				"bt_smart_cache_find_characteristic_by_",
+				"bt_smart_cache_find_characteristic_by_value_handle(cached_smart_service_t *service, uint16_t characteristic_value_handle, cached_smart_characteristic_t **characteristic_found)	OSStatus"
+			],
+			[
+				"bt_smart_cache_re",
+				"bt_smart_cache_remove_services(smart_connection_t *connection)	OSStatus"
+			],
+			[
+				"BTM_RO",
+				"BTM_ROLE_SLAVE	macro"
+			],
+			[
+				"c",
+				"connection	smart_connection_t*"
+			],
+			[
+				"HDLC_TES",
+				"HDLC_TEST_READ_VALUE	enum <anonymous>"
+			],
+			[
+				"mico",
+				"mico_bool_t	typedef"
+			],
+			[
+				"MICO_BT_GATT",
+				"MICO_BT_GATT_ERROR	enum mico_bt_gatt_status_e"
+			],
+			[
+				"bt_smart_cache_add_characteristic_",
+				"bt_smart_cache_add_characteristic_value(cached_smart_characteristic_t *characteristic, uint16_t length, const uint8_t *value)	OSStatus"
+			],
+			[
+				"req",
+				"require_noerr(ERR, LABEL)	macro"
+			],
+			[
+				"conn",
+				"connection	smart_connection_t*"
+			],
+			[
+				"require_a",
+				"require_action(X, LABEL, ACTION)	macro"
+			],
+			[
+				"reqi",
+				"require_action(X, LABEL, ACTION)	macro"
+			],
+			[
+				"int",
+				"interface	bt_smart_interface_t*"
+			],
+			[
+				"require_n",
+				"require_noerr(ERR, LABEL)	macro"
+			],
+			[
+				"requr",
+				"require_noerr(ERR, LABEL)	macro"
+			],
+			[
+				"kN",
+				"kNoMemoryErr	macro"
+			],
+			[
+				"GPIO_PinA",
+				"GPIO_PinAFConfig(GPIO_TypeDef *GPIOx, uint16_t GPIO_PinSource, uint8_t GPIO_AF)	void"
+			],
+			[
+				"OSS",
+				"OSStatus	typedef"
+			],
+			[
+				"kS",
+				"kSizeErr	macro"
+			],
+			[
+				"DE",
+				"DEFAULT_NAME	macro"
+			],
+			[
+				"DEF",
+				"DEFAULT_BT_DATA_SECTION	default_section_t"
+			],
+			[
+				"b",
+				"boot_table_t	typedef"
+			],
+			[
+				"WIFI_MANAGER_CMD_S",
+				"WIFI_MANAGER_CMD_SERVER_IP	wifi_manager_cmd_e"
+			],
+			[
+				"cmd",
+				"cmd_cur	uint16_t"
+			],
+			[
+				"mico_sys",
+				"mico_system_context_get()	mico_Context_t *"
+			],
+			[
+				"kNoe",
+				"kNotPreparedErr	macro"
+			],
+			[
+				"EOF",
+				"EOC_WIFI_MANAGER_CMD_SCAN	macro"
+			],
+			[
+				"HDLC_WIFI_MANAGER_CMD_R",
+				"HDLC_WIFI_MANAGER_CMD_RESPOND_VALUE	enum <anonymous>"
+			],
+			[
+				"ble",
+				"ble_client_mtu	uint16_t"
+			],
+			[
+				"SER",
+				"SERVER_MTU_SIZE	macro"
+			],
+			[
+				"require_ac",
+				"require_action_quiet(X, LABEL, ACTION)	macro"
+			],
+			[
+				"SPIX",
+				"SPIX_AF	macro"
+			],
+			[
+				"platform_po",
+				"platform_mcu_powersave_enable()	OSStatus"
+			],
+			[
+				"platform_g",
+				"platform_gpio_enable(const platform_gpio_t *gpio)	OSStatus"
+			],
+			[
+				"platform_w",
+				"platform_watchdog_kick()	OSStatus"
+			],
+			[
+				"o",
+				"onReceivedDataCallback	bool (*)(struct _HTTPHeader_t *)"
+			],
+			[
+				"wla",
+				"wLanUnConfigured	Config_State_t"
+			],
+			[
+				"WL_",
+				"WL_GPIO1_PIN	macro"
+			],
+			[
+				"platform",
+				"platform_log(M, ...)	macro"
+			],
+			[
+				"pi",
+				"pin_rx	const platform_pin_mapping_t *"
+			],
+			[
+				"MicoGpio",
+				"MicoGpioEnableIRQ(mico_gpio_t gpio, mico_gpio_irq_trigger_t trigger, mico_gpio_irq_handler_t handler, void *arg)	OSStatus"
+			],
+			[
+				"MicoGP",
+				"MicoGpioEnableIRQ(mico_gpio_t gpio, mico_gpio_irq_trigger_t trigger, mico_gpio_irq_handler_t handler, void *arg)	OSStatus"
+			],
+			[
+				"OUTPUT_OD",
+				"OUTPUT_OPEN_DRAIN_NO_PULL	mico_gpio_config_t"
+			],
+			[
+				"MICOSYS",
+				"MicoSystemStandBy()	void"
+			],
+			[
+				"MicoWd",
+				"MicoWdgInitialize(uint32_t timeout)	OSStatus"
+			],
+			[
+				"MicoR",
+				"MicoRtcSetTime(mico_rtc_time_t *time)	OSStatus"
+			],
+			[
+				"m",
+				"month	uint8_t"
+			],
+			[
+				"MICO_I",
+				"MICO_I2C_CP	macro"
+			],
+			[
+				"ke",
+				"keyLength	int"
+			],
+			[
+				"s",
+				"security	SECURITY_TYPE_E"
+			],
+			[
+				"MicoGpioO",
+				"MicoGpioOutputLow(mico_gpio_t gpio)	OSStatus"
+			],
+			[
+				"k",
+				"kBackoffErr	macro"
+			],
+			[
+				"mico_rtos_in",
+				"mico_rtos_init_semaphore(mico_semaphore_t *semaphore, int count)	OSStatus"
+			],
+			[
+				"tm",
+				"tm_wday	int"
+			],
+			[
+				"tm_m",
+				"tm_mon	int"
+			],
+			[
+				"tm_",
+				"tm_mday	int"
+			],
+			[
+				"mico_rtos_d",
+				"mico_rtos_delete_thread(mico_thread_t *thread)	OSStatus"
+			],
+			[
+				"MICORe",
+				"MICORemoveNotification(mico_notify_types_t notify_type, void *functionAddress)	OSStatus"
+			],
+			[
+				"I",
+				"INADDR_ANY	macro"
+			],
+			[
+				"mico_th",
+				"mico_thread_sleep	macro"
+			],
+			[
+				"MICOWlan",
+				"MICOWlanEnablePowerSave	macro"
+			],
+			[
+				"MICOWlanS",
+				"MICOWlanStopEasyLink	macro"
+			],
+			[
+				"MICOW",
+				"MICOWlanGetIPStatus	macro"
+			],
+			[
+				"MICOWl",
+				"MICOWlanGetIPStatus	macro"
+			],
+			[
+				"MICOWlanGe",
+				"MICOWlanGetIPStatus	macro"
+			],
+			[
+				"MICOWlanStart",
+				"MICOWlanStartAdv	macro"
+			],
+			[
+				"micoGet",
+				"micoGetMemoryInfo	macro"
+			],
+			[
+				"send",
+				"sendto(int sockfd, const void *buf, unsigned int len, int flags, const struct sockaddr_t *dest_addr, socklen_t addrlen)	int"
+			],
+			[
+				"DHCP",
+				"DHCP_Disable	DHCPOperationMode"
+			],
+			[
+				"DHC",
+				"DHCP_Client	DHCPOperationMode"
+			],
+			[
+				"ma",
+				"manufacturer	char [32]"
+			],
+			[
+				"n",
+				"name	char [32]"
+			],
+			[
+				"uin",
+				"uint8_t	typedef"
+			],
+			[
+				"Platform",
+				"PlatformWDGReload()	void"
+			],
+			[
+				"RE",
+				"REMOTE_CONNECT	enum <anonymous>"
+			],
+			[
+				"_us",
+				"_uart_send_mutex	mico_mutex_t"
+			],
+			[
+				"requi",
+				"require(X, LABEL)	macro"
+			],
+			[
+				"_uart",
+				"_uart_send_mutex	mico_mutex_t"
+			],
+			[
+				"mico_rtos_init_s",
+				"mico_rtos_init_semaphore(mico_semaphore_t *semaphore, int count)	MxchipStatus"
+			],
+			[
+				"mico_rtosge",
+				"mico_rtos_get_semaphore(mico_semaphore_t *semaphore, unsigned int timeout_ms)	MxchipStatus"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/William/Develop/MiCO/Platform/MCU/STM32F2xx/peripherals/platform_uart.c",
+			"settings":
+			{
+				"buffer_size": 23142,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/Users/William/Develop/MiCO/Platform/MCU/STM32F2xx/platform_init.c",
+			"settings":
+			{
+				"buffer_size": 9504,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/Users/William/Develop/MiCO/MICO/RTOS/NoRTOS/rtos.c",
+			"settings":
+			{
+				"buffer_size": 3961,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 287.0,
+		"selected_items":
+		[
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"git",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"v",
+				"View: Toggle Side Bar"
+			],
+			[
+				"Cscope:Look up symbol",
+				"Cscope: Look up symbol"
+			],
+			[
+				":",
+				"View: Toggle Tabs"
+			],
+			[
+				":q",
+				"Set Syntax: SQL"
+			],
+			[
+				"Package Control: install		",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Lorem ipsum"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/William/Develop/MiCO/Platform/include/platform_peripheral.h",
+		"/Users/William/Develop/MiCO/Platform/MCU/STM32F2xx/peripherals/platform_mcu_peripheral.h",
+		"/Users/William/Develop/MiCO/Projects/STM32F4xx/demo/sublime/demo.sublime-project",
+		"/Users/William/Develop/MiCO/include/mico_rtos.h",
+		"/Users/William/Develop/MiCO/mico/RTOS/NoRTOS/rtos.h",
+		"/Users/William/Develop/MiCO/Platform/MCU/STM32F4xx/platform_init.c",
+		"/Users/William/Develop/MiCO/mico/RTOS/NoRTOS/rtos.c",
+		"/Users/William/Develop/MiCO/mico/RTOS/FreeRTOS/rtos.h",
+		"/Users/william/Develop/MiCO/Platform/MCU/STM32F4xx/peripherals/platform_mcu_peripheral.h",
+		"/Users/William/Develop/MiCO/Platform/MCU/STM32F4xx/peripherals/platform_uart.c",
+		"/Users/William/Develop/MiCO/Platform/MCU/ATSAMG55/platform_init.c",
+		"/Users/William/Develop/MiCO/mico/core/RTOS/NoRTOS/rtos.c",
+		"/Users/William/Develop/MiCO/mico/core/RTOS/FreeRTOS/rtos.h",
+		"/Users/William/Develop/MiCO/mico/core/RTOS/NoRTOS/rtos.h",
+		"/Users/William/Develop/MiCO/Board/NUCLEO_F411RE/platform.h",
+		"/Users/william/Develop/MiCO/Platform/include/platform_peripheral.h",
+		"/Users/William/Develop/MiCO/Board/NUCLEO_F411RE/platform.c",
+		"/Users/William/Develop/MiCO/Board/NUCLEO_F411RE/platform_config.h",
+		"/Users/William/Develop/MiCO/Platform/MCU/STM32F4xx/wlan_bus_driver/wlan_bus_spi.c",
+		"/Users/William/Develop/MiCO/Platform/include/wlan_platform_common.h",
+		"/Users/William/Develop/MiCO/Platform/MCU/mico_platform_common.c",
+		"/Users/William/Develop/MiCO/Board/MiCOKit-3165/platform.c",
+		"/Users/William/Develop/MiCO/Board/NUCLEO_F411RE/platform.c.rej",
+		"/Users/William/Develop/MiCO/Board/MiCOKit-3165/platform.h",
+		"/Users/william/Develop/MiCO/Board/NUCLEO_F411RE/platform.h",
+		"/Users/William/Develop/MiCO/Board/NUCLEO_F411RE/platform.h.rej",
+		"/Users/William/Develop/MiCO/Demos/bluetooth/ble_hello_center/ble_hello_center.c",
+		"/Users/William/Develop/MiCO/libraries/bluetooth/firmware/43438A0/bt_firmware_image.c",
+		"/Users/William/Develop/MiCO/Demos/test/bt_mfg_test/bt_firmware.c",
+		"/Users/William/Develop/MiCO/libraries/bluetooth/BTE/Projects/bte/embedded/mico/lib/mico_post_reset.c",
+		"/Users/William/Develop/MiCO/Demos/test/bt_mfg_test/bt_bus.c",
+		"/Users/william/Develop/MiCO/libraries/utilities/RingBufferUtils.h",
+		"/Users/William/Develop/MiCO/Platform/MCU/STM32F4xx/peripherals/platform_gpio.c",
+		"/Users/William/Develop/MiCO/Board/MiCOKit-3238/platform.c",
+		"/Users/William/Develop/MiCO/Platform/MCU/STM32F4xx/peripherals/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.c",
+		"/Users/William/Develop/MiCO/libraries/utilities/RingBufferUtils.c",
+		"/Users/William/Develop/MiCO/libraries/bluetooth/BTE/Projects/bte/embedded/wiced/lib/wiced_post_reset.c",
+		"/Users/william/Develop/MiCO/include/Common.h",
+		"/Users/William/Develop/MiCO/libraries/bluetooth/include/buildcfg.h",
+		"/Users/William/Develop/MiCO/libraries/bluetooth/BTE/Components/stack/brcm/brcm_prm.c",
+		"/Users/William/Develop/MiCO/libraries/bluetooth/firmware/43438A1/37_4MHz/bt_firmware_image.c",
+		"/Users/William/Develop/MiCO/libraries/bluetooth/BTE/mico_bt_platform/mico_bt_hcd.c",
+		"/Users/William/Develop/MiCO/libraries/bluetooth/BTE/mico_bt_platform/mico_bt_bus.c",
+		"/Users/William/Develop/MiCO/Demos/test/bt_mfg_test/bt_mfg_test.c",
+		"/Users/William/Develop/MiCO/libraries/bluetooth/BTE/Components/stack/btm/btm_devctl.c",
+		"/Users/william/Develop/MiCO/libraries/bluetooth/BTE/Projects/bte/main/bt_target.h",
+		"/Users/william/Develop/MiCO/Platform/include/platform_bluetooth.h",
+		"/Users/william/Develop/MiCO/libraries/bluetooth/BTE/Components/hcis/hciutil.h",
+		"/Users/william/Develop/MiCO/libraries/bluetooth/BTE/Components/stack/include/btm_api.h",
+		"/Users/William/Develop/MiCO/libraries/bluetooth/BTE/Components/stack/brcm/brcm_hcidefs.h",
+		"/Users/William/Develop/MiCO/libraries/bluetooth/BTE/Components/hcis/hciutil.c",
+		"/Users/William/Develop/MiCO/Demos/test/bt_mfg_test/bt_transport_driver.c",
+		"/Users/William/Develop/MiCO/Demos/test/bt_mfg_test/bt_transport_driver.h",
+		"/Users/William/Develop/MiCO/Demos/test/bt_mfg_test/bt_transport_driver_receive.c",
+		"/Users/William/Develop/MiCO/Demos/test/bt_mfg_test/bt_transport_thread.c",
+		"/Users/William/Develop/MiCO/Demos/test/bt_mfg_test/bt_transport_thread.h",
+		"/Users/William/Develop/MiCO/include/Common.h",
+		"/Users/William/Develop/MiCO/include/Debug.h",
+		"/Users/William/Develop/MiCO/Demos/test/bt_mfg_test/bt_mfg_test.h",
+		"/Users/William/Develop/MiCO/Demos/test/bt_mfg_test/bt_mfg_test_main.c",
+		"/Users/William/Develop/MiCO/Demos/test/bt_mfg_test/bt_bus.h",
+		"/Users/william/Develop/MiCO/libraries/utilities/LinkListUtils.c",
+		"/Users/william/Develop/MiCO/libraries/utilities/LinkListUtils.h",
+		"/Users/William/Develop/MiCO/Demos/test/bt_mfg_test/bt_packet.c",
+		"/Users/William/Develop/MiCO/Demos/test/bt_mfg_test/bt_hci.c",
+		"/Users/William/Develop/MiCO/Demos/test/bt_mfg_test/bt_hci.h",
+		"/Users/William/Develop/MiCO/Demos/test/bt_mfg_test/bt_firmware_image.h",
+		"/Users/William/Develop/MiCO/libraries/bluetooth/include/mico_bt_constants.h",
+		"/Users/William/Develop/MiCO/Demos/test/bt_mfg_test/bt_hci_interface.h",
+		"/Users/William/Develop/MiCO/Demos/test/bt_mfg_test/bt_packet_internal.h",
+		"/Users/William/Develop/MiCO/Platform/MCU/STM32F2xx/peripherals/Libraries/STM32F2xx_StdPeriph_Driver/src/stm32f2xx_dma.c",
+		"/Users/William/Develop/MiCO/Demos/test/bt_mfg_test/bt_firmware.h",
+		"/Users/William/Develop/MiCO/libraries/bluetooth/BTE/mico_bt_platform/mico_upio.c",
+		"/Users/William/Develop/MiCO/Board/MiCOKit-3238/platform.h",
+		"/Users/William/Develop/MiCO/libraries/bluetooth/BTE/Components/udrv/mico/userial_mico.c",
+		"/Users/William/Develop/MiCO/Platform/Drivers/spi_flash/spi_flash_platform.c",
+		"/Users/William/Develop/MiCO/Platform/Drivers/spi_flash/spi_flash.c",
+		"/Users/William/Develop/MiCO/Platform/MCU/wlan_platform_common.c",
+		"/Users/William/Develop/MiCO/libraries/bluetooth/BTE/mfg_test/internal/bus/UART/bt_bus.c",
+		"/Users/William/Develop/MiCO/Platform/MCU/ATSAMG55/peripherals/platform_flash.c",
+		"/Users/William/Develop/MiCO/Demos/bluetooth/ble_wlan_config/mico_bt_gatt_db.c",
+		"/Users/William/Develop/MiCO/Demos/bluetooth/ble_wlan_config/mico_main.c",
+		"/Users/William/Develop/MiCO/Demos/bluetooth/ble_wlan_config/bt_wlan_config.c",
+		"/Users/William/Develop/MiCO/Demos/bluetooth/ble_scan/ble_scan.c",
+		"/Users/william/Develop/MiCO/libraries/daemons/bt_smartbridge/include/mico_bt_smartbridge.h",
+		"/Users/William/Develop/MiCO/Demos/bluetooth/ble_wlan_config/mico_bt_gatt_db.h",
+		"/Users/William/Develop/MiCO/libraries/daemons/bt_smartbridge/include/mico_bt_smart_attribute.h",
+		"/Users/William/Develop/MiCO/libraries/utilities/AESUtils.h",
+		"/Users/William/Develop/MiCO/libraries/bluetooth/include/mico_bt_gatt.h",
+		"/Users/William/Develop/MiCO/libraries/bluetooth/BTE/Components/stack/include/sdpdefs.h",
+		"/Users/William/Develop/MiCO/libraries/bluetooth/BTE/Components/stack/include/gattdefs.h",
+		"/Users/William/Develop/MiCO/Demos/bluetooth/ble_hello_sensor/ble_hello_sensor.c",
+		"/Users/william/Develop/MiCO/libraries/bluetooth/include/sdpdefs.h",
+		"/Users/William/Develop/MiCO/Demos/bluetooth/ble_hello_sensor/ble_hello_sensor.h",
+		"/Users/William/Develop/MiCO/libraries/daemons/bt_smart_controller/bt_smart_server.c",
+		"/Users/william/Develop/MiCO/Board/MiCOKit-3238/platform.h",
+		"/Users/william/Develop/MiCO/Demos/bluetooth/ble_hello_sensor/mico_config.h",
+		"/Users/William/Develop/MiCO/mico/core/mico_config.c",
+		"/Users/William/Develop/MiCO/libraries/daemons/bt_smart_controller/bt_smart_server_cache.c",
+		"/Users/William/Develop/MiCO/libraries/daemons/bt_smart_controller/bt_smart_gatt.h",
+		"/Users/William/Develop/MiCO/libraries/daemons/bt_smart_controller/bt_smart_client_cache.c",
+		"/Users/William/Develop/MiCO/libraries/daemons/bt_smart_controller/bt_smart_cache.h",
+		"/Users/William/Develop/MiCO/libraries/daemons/bt_smart_controller/bt_smart_api.h",
+		"/Users/William/Develop/MiCO/libraries/daemons/bt_smart_controller/bt_smart.h",
+		"/Users/William/Develop/MiCO/libraries/daemons/bt_smart_controller/bt_smart.c",
+		"/Users/William/Develop/MiCO/libraries/daemons/bt_smartbridge/include/mico_bt.h",
+		"/Users/William/Develop/MiCO/libraries/daemons/bt_smartbridge/include/mico_bt_smart_interface.h",
+		"/Users/William/Develop/MiCO/libraries/daemons/bt_smartbridge/include/mico_bt_smartbridge.h",
+		"/Users/William/Develop/MiCO/libraries/daemons/bt_smartbridge/include/mico_bt_smartbridge_constants.h",
+		"/Users/William/Develop/MiCO/libraries/daemons/bt_smartbridge/include/mico_bt_smartbridge_gatt.h",
+		"/Users/William/Develop/MiCO/libraries/daemons/bt_smartbridge/mico_bt_smartbridge_cfg.c",
+		"/Users/William/Develop/MiCO/libraries/daemons/bt_smartbridge/internal/bt_smart_attribute.c",
+		"/Users/William/Develop/MiCO/libraries/daemons/bt_smartbridge/mico_bt_smartbridge_gatt.c",
+		"/Users/William/Develop/MiCO/libraries/daemons/bt_smartbridge/mico_bt_smartbridge.c",
+		"/Users/William/Develop/MiCO/libraries/daemons/bt_smartbridge/mico_bt_management.c",
+		"/Users/William/Develop/MiCO/libraries/daemons/bt_smartbridge/internal/bt_smartbridge_stack_interface.h",
+		"/Users/William/Develop/MiCO/libraries/daemons/bt_smartbridge/internal/bt_smartbridge_stack_interface.c",
+		"/Users/William/Develop/MiCO/libraries/daemons/bt_smartbridge/internal/bt_smartbridge_socket_manager.h",
+		"/Users/William/Develop/MiCO/libraries/daemons/bt_smartbridge/internal/bt_smartbridge_socket_manager.c",
+		"/Users/William/Develop/MiCO/libraries/daemons/bt_smartbridge/internal/bt_smartbridge_helper.h",
+		"/Users/William/Develop/MiCO/libraries/daemons/bt_smartbridge/internal/bt_smartbridge_helper.c",
+		"/Users/William/Develop/MiCO/libraries/daemons/bt_smartbridge/internal/bt_smartbridge_att_cache_manager.h",
+		"/Users/William/Develop/MiCO/libraries/daemons/bt_smartbridge/internal/bt_smartbridge_att_cache_manager.c",
+		"/Users/William/Develop/MiCO/libraries/bluetooth/include/mico_bt_dev.h",
+		"/Users/william/Develop/MiCO/include/mico_rtos.h",
+		"/Users/William/Develop/MiCO/Platform/MCU/ATSAMG55/wlan_bus_driver/wlan_bus_spi.c",
+		"/Users/william/Develop/MiCO/libraries/daemons/bt_smartbridge/include/mico_bt_smart_interface.h",
+		"/Users/William/Develop/MiCO/libraries/bluetooth/include/mico_bt_nvram_access.h"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"",
+			"/Users/William/Develop/MiCO/libraries/bluetooth",
+			"",
+			"/Users/William/Develop/MiCO/libraries/bluetooth",
+			"",
+			"/Users/William/Develop/MiCO/libraries/bluetooth",
+			"",
+			"<open folders>",
+			"",
+			"<open folders>",
+			"/Users/william/Develop/E-DICE",
+			"",
+			"<open folders>",
+			"/Volumes/C/develop/MDV-STM32-407/EMB_STM32_407_wifi_lib_V2.0.0/",
+			"/Volumes/C/develop/MDV-STM32-407/EMB_STM32_407_wifi_lib_V2.0.0/Project/复件 Data_Send&Recv",
+			"/Volumes/C/develop/MDV-STM32-407/EMB_STM32_407_wifi_lib_V2.0.0/Project/STM32F4xx_StdPeriph_Examples"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"NO_MICO_RTOS",
+			"mico_thread_msleep",
+			"mico_thread_msleep_no_os",
+			"mico_get_time",
+			"mico_get_time_no_os",
+			"spi_transfer_finished_semaphore",
+			"NO_MICO_RTOS",
+			"mico_rtos_init_semaphore",
+			"mico_rtos_lock_mutex",
+			"platform_watchdog_kick",
+			"mico_thread_msleep",
+			"mico_get_time_no_os",
+			"NO_MICO_RTOS",
+			"spi_transfer_finished_semaphore",
+			"spi_dma_transfer",
+			"spi_transfer",
+			"wlan_notify_irq",
+			"wlan_spi_init",
+			"spi_initialized",
+			"MCU_CLOCKS_NEEDED",
+			"NO_MICO_RTOS",
+			"wlan_spi_transfer",
+			"platform_wlan_spi_transfer",
+			"wlan_spi_transfer",
+			"spi_init",
+			"MICO_WIFI_USE_SPI_BUS",
+			"host_platform_spi_init",
+			"wifi_spi",
+			"FLASH_PIN_SPI_CS",
+			"FLASH_PIN_SPI_MOSI",
+			"FLASH_PIN_SPI_CS",
+			"flash_spi_pins",
+			"FLASH_PIN_SPI_CS",
+			"mico_bt_smart_attribute_t",
+			"LENGTH_HELLO_CHARACTERISTIC_COLOR",
+			"bte_prm_cback",
+			"bt_bus_uart_reconifig_baud",
+			"GPIO_PinAFConfig",
+			"receive_bytes2",
+			"ring_buffer_init",
+			"receive_bytes2",
+			"receive_bytes",
+			"platform_uart_reconfig",
+			"bluetooth_mico_init_config_uart",
+			"kUnsupportedErr",
+			"btm_continue_reset",
+			"BTM_APP_DEV_INIT",
+			"bte_post_reset",
+			"bte_baud_update_cback",
+			"BTE_MAIN_HCI_RECONFIG_BAUD",
+			"bte_post_download_baud_update_cback",
+			"USERIAL_BAUD_3M",
+			"BTE_MAIN_HCI_RECONFIG_BAUD_RATE",
+			"bt_uart_config",
+			"mico_bt_uart_config",
+			"bt_uart_config",
+			"platform_uart_reconfig",
+			"bluetooth_mico_init_config_uart",
+			"bt_bus_is_ready",
+			"bt_bus_transmit",
+			"btm_continue_reset",
+			"BTM_ContinueReset",
+			"bt_host_update_baudrate",
+			"BRCM_END_DELAY",
+			"BRCM_PRM_STS_COMPLETE",
+			"bte_post_reset",
+			"bte_baud_update_cback",
+			"get_hcd_content_length",
+			"BRCM_PrmInit",
+			"get_one_command",
+			"BTE_PRM_FORMAT_HCD",
+			"HCIUTIL_UpdateBaudRate",
+			"btm_continue_reset",
+			"BTM_ContinueReset",
+			"BRCM_PRM_STS_COMPLETE",
+			"BRCM_PRM_ST_LAUNCHING_RAM",
+			"get_one_command",
+			"BRCM_PrmLaunchRam",
+			"brcm_prm_command_complete_cback",
+			"HCI_GRP_VENDOR_SPECIFIC",
+			"get_one_command",
+			"BT_BUS_WAIT_UNTIL_READY",
+			"mico_bt_config",
+			"bt_mfgtest_transport_driver_event_handler",
+			"BT_BUS_RX_FIFO_SIZE",
+			"bt_transport_thread",
+			"bt_transport_thread_send_packet_handler",
+			"bt_transport_thread_send_packet_handler\nbt_transport_thread_send_packet_handler",
+			"bt_transport_thread_send_packet_handler",
+			"bt_transport_driver_receive_packet",
+			"driver_bus_read_handler",
+			"bt_transport_driver_receive_packet",
+			"uart_rx_packet_list",
+			"bt_mfgtest_transport_driver_bus_read_handler",
+			"packet_list_mutex",
+			"host_platform_bus_deinit",
+			"DMA_ITConfig",
+			"DMA_INTERRUPT_FLAGS",
+			"TCIE",
+			"TRANSFER_IT_ENABLE_MASK",
+			"clear_dma_interrupts",
+			"DMA_ITConfig",
+			"bt_host_update_baudrate",
+			"MICO_BT_UNKNOWN_PACKET",
+			"VERIFY_RESPONSE",
+			"check",
+			"hci_acl_packet_header_t",
+			"bluetooth_wiced_init_config_uart",
+			"bt_bus_uart_reconifig_baud",
+			"bt_host_update_baudrate",
+			"bluetooth_mico_init_config_uart",
+			"rx_data",
+			"bluetooth_mico_init_config_uart",
+			"mico_bt_uart_config",
+			"IS_BUS_INITIALISED",
+			"mico_bt_uart_driver",
+			"BT_BUS_WAIT_UNTIL_READY",
+			"IS_BUS_INITIALISED",
+			"mico_bt_uart_pins",
+			"WIFI_PIN_POWER",
+			"bluetooth_wiced_init_platform",
+			"MicoFlashInitialize",
+			"platform_flash_init",
+			"init_sflash",
+			"MICO_BT_PIN_RESET",
+			"mico_bt_control_pins",
+			"MICO_BT_PIN_RESET",
+			"mico_bt_control_pins"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"MICO_",
+			"mico_",
+			"MICO_",
+			"mico_",
+			"MICO_",
+			"mico_",
+			"MICO_",
+			"mico_",
+			"MICO_",
+			"mico_",
+			"MICO_",
+			"mico_",
+			"MICO_",
+			"mico_",
+			"MICO_",
+			"mico_",
+			"MICO_",
+			"mico_",
+			"MICO_",
+			"mico_",
+			"",
+			"MICO_BT_",
+			"mico_bt_",
+			"OSStatus",
+			"bt_smart_",
+			"mico_",
+			"bt_smart_",
+			"OSStatus",
+			"mico_",
+			"OSStatus",
+			"bt_smart_",
+			"MICO_",
+			"mico_",
+			"check",
+			"MICO_",
+			"mico_",
+			"MICO_",
+			"mico_",
+			"MICO_",
+			"mico_",
+			"MICO_",
+			"mico_",
+			"MICO_",
+			"mico_",
+			"MICO_",
+			"mico_",
+			"MICO_",
+			"mico_",
+			"MICO_",
+			"mico_",
+			"MICO_",
+			"mico_",
+			"MICO_",
+			"mico_",
+			"MICO_",
+			"mico_",
+			"MICO_",
+			"mico_",
+			"MICO_",
+			"mico_",
+			"MICO_",
+			"mico_",
+			"mico_bt_result_t",
+			"para_",
+			"PARA_",
+			"PARA",
+			"MICO_",
+			"MICO_BT_",
+			"MICO_",
+			"mico_",
+			"MICO_",
+			"mico_bt_result_t",
+			"mico_",
+			"MICO_",
+			"mico_",
+			"MICO_",
+			"mico_",
+			"MICO_",
+			"mico_",
+			"MICO_",
+			"mico_",
+			"OSStatus",
+			"MICO",
+			"MICO_DISABLE_STDIO"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/William/Develop/MiCO/Platform/MCU/STM32F2xx/peripherals/platform_uart.c",
+					"settings":
+					{
+						"buffer_size": 23142,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3999,
+								3999
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/C++/C.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1415.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/William/Develop/MiCO/Platform/MCU/STM32F2xx/platform_init.c",
+					"settings":
+					{
+						"buffer_size": 9504,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/C++/C.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4275.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/William/Develop/MiCO/MICO/RTOS/NoRTOS/rtos.c",
+					"settings":
+					{
+						"buffer_size": 3961,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/C++/C.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1660.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.clang":
+	{
+		"height": 139.0
+	},
+	"output.exec":
+	{
+		"height": 27.0
+	},
+	"output.git":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"micode",
+				"MICO/MICODefine.h"
+			],
+			[
+				"",
+				"STM32F2xx_StdPeriph_Driver/src/stm32f2xx_i2c.c"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 249.0,
+	"status_bar_visible": true
+}
