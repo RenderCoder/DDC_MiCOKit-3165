@@ -57,7 +57,7 @@ void clientNotify_WifiStatusHandler(int event, void* arg )
   }
   return;
 }
-static char tcp_remote_ip[16] = "192.168.1.162"; /*remote ip address*/
+static char tcp_remote_ip[16] = "45.55.94.49"; /*remote ip address*/
 static int tcp_remote_port = 2008; /*remote port*/
 void remoteTcpClient_thread(uint32_t inContext)
 {
@@ -125,8 +125,8 @@ void remoteTcpClient_thread(uint32_t inContext)
         goto ReConnWithDelay;
       }
 
-      // 发送设备标识数据
-      char *marker = "_ddc_";
+      // 发送设备标识数据 uuid
+      char *marker = "_your_device_uuid_";
       sent_len = write(remoteTcpClient_fd, marker, strlen(marker));
 
     }else{
