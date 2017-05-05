@@ -64,6 +64,8 @@ void remoteTcpClient_thread(uint32_t inContext)
   client_log_trace();
   OSStatus err = kUnknownErr;
   int len;
+  IPStatusTypedef para;
+
   app_context_t *context = (app_context_t *)inContext;
   struct sockaddr_in addr;
   fd_set readfds;
@@ -126,7 +128,20 @@ void remoteTcpClient_thread(uint32_t inContext)
       }
 
       // 发送设备标识数据 uuid
-      char *marker = "_your_device_uuid_";
+      uint8_t mac[6];
+//      mico_wlan_get_mac_address(mac);
+//
+//      char *mac_str;
+//      sprintf( mac_str, "%02X:%02X:%02X:%02X:%02X:%02X",
+//                   mac[0],
+//                   mac[1], mac[2], mac[3], mac[4], mac[5] );
+
+             extern char*macStr;
+              client_log("mac %s",macStr);
+
+      char *marker = malloc(30);
+      memset(marker,0,30);
+      sprintf( marker, "_%s_", macStr);
       sent_len = write(remoteTcpClient_fd, marker, strlen(marker));
 
     }else{

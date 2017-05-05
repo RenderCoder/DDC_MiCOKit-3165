@@ -41,7 +41,7 @@
 
 volatile ring_buffer_t rx_buffer;
 volatile uint8_t rx_data[UART_BUFFER_LENGTH];
-
+char* macStr;
 extern void localTcpServer_thread( uint32_t inContext );
 
 extern void remoteTcpClient_thread( uint32_t inContext );
@@ -136,7 +136,7 @@ int application_start( void )
     mico_uart_config_t uart_config;
     app_context_t* app_context;
     mico_Context_t* mico_context;
-
+    macStr=malloc(19);
     /* Create application context */
     app_context = (app_context_t *) calloc( 1, sizeof(app_context_t) );
     require_action( app_context, exit, err = kNoMemoryErr );

@@ -233,6 +233,8 @@ OSStatus system_network_daemen_start( system_context_t * const inContext )
   system_log( "MiCO version: %d.%d.%d", major, minor, revision );
 
   system_log("Wi-Fi driver version %s, mac %s", inContext->micoStatus.rf_version, inContext->micoStatus.mac);
+  extern char*macStr;
+  memcpy(macStr,inContext->micoStatus.mac,18);
 
   if(inContext->flashContentInRam.micoSystemConfig.rfPowerSaveEnable == true){
     micoWlanEnablePowerSave();
